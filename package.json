@@ -1,0 +1,17 @@
+{
+  "name": "elias-app-todo",
+  "version": "1.0.0",
+  "description": "Elias Todo App — track active goals and to-do items",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.8"
+  }
+}
